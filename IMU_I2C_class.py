@@ -1,5 +1,14 @@
 # IMU testing I2C
 
+# CONNECTIONS:
+# RASPI VERSION 3A+
+
+# RASPI PIN 1 --> SENSOR VDD
+# RASPI PIN 3 --> SENSOR SDA
+# RASPI PIN 5 --> SENSOR SCL
+# RASPI PIN 17 --> SENSOR CS
+# RASPI PIN 39 --> SENSOR GND
+
 import smbus
 import time
 from registers import *
